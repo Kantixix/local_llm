@@ -8,7 +8,7 @@ https://mlabonne.github.io/blog/posts/Quantize_Llama_2_models_using_ggml.html
 """
 
 # What HuggingFace model do you want to quantize?
-MODEL_ID = "RJuro/munin-neuralbeagle-7b"
+MODEL_ID = "mistralai/Mistral-7B-v0.1"
 
 # What quantization methods do you want to use? M. Labonne recommends Q5_K_M. In my experience, Q4_0 also works well.
 QUANTIZATION_METHODS = ["Q5_K_M"]
